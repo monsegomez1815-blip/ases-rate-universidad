@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Asesórate a Universidad</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+}
+
+/* ENCABEZADO */
+header {
+    background: linear-gradient(135deg, #1a3c6e, #2c5aa0);
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* INTRO */
+.intro {
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+/* CONTENEDOR */
+.contenedor {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+/* TARJETAS */
+.tarjeta {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.contenido {
+    padding: 15px;
+}
+
+.contenido h2 {
+    margin: 0 0 5px;
+    font-size: 18px;
+    color: #1a3c6e;
+}
+
+.contenido p {
+    font-size: 14px;
+    color: #555;
+    text-align: justify;
+}
+
+/* BOTONES */
+.botones {
+    margin-top: 10px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 5px 5px 0 0;
+    background-color: #2c5aa0;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.boton:hover {
+    background-color: #1a3c6e;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+    color: #777;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Asesórate a Universidad</h1>
+    <p>Encuentra tu mejor opción en el Estado de México</p>
+</header>
+
+<div class="intro">
+    <p>Esta página web tiene como propósito orientar a los estudiantes sobre diferentes opciones de universidades públicas en el Estado de México, brindando información básica que les permita conocer sus características y tomar una mejor decisión sobre su futuro académico.</p>
+    
+    <p>La educación es fundamental para el desarrollo personal y social, ya que permite adquirir conocimientos, habilidades y valores necesarios para enfrentar los retos de la vida, mejorar la calidad de vida y contribuir al progreso de la sociedad.</p>
+</div>
+
+<div class="contenedor">
+
+    <!-- UAEMEX -->
+    <div class="tarjeta">
+        <img src="imagenes/uaemex.jpg">
+        <div class="contenido">
+            <h2>UAEMEX</h2>
+            <p>La Universidad Autónoma del Estado de México es una institución pública reconocida por su calidad académica y amplia oferta educativa. Ofrece licenciaturas, maestrías y doctorados en diversas áreas del conocimiento, destacando por su enfoque en la formación integral, la investigación y el compromiso social.</p>
+            <div class="botones">
+                <a href="uaemex.html" class="boton">Ver más</a>
+                <a href="#" class="boton">Ubicación</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- UPVT -->
+    <div class="tarjeta">
+        <img src="imagenes/upvt.jpg">
+        <div class="contenido">
+            <h2>UPVT</h2>
+            <p>La Universidad Politécnica del Valle de Toluca se especializa en la formación de profesionales en áreas tecnológicas e ingenierías. Su modelo educativo se basa en el desarrollo de competencias prácticas, el uso de tecnología y la vinculación con el sector productivo.</p>
+            <div class="botones">
+                <a href="upvt.html" class="boton">Ver más</a>
+                <a href="#" class="boton">Ubicación</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- UMB -->
+    <div class="tarjeta">
+        <img src="imagenes/umb.jpg">
+        <div class="contenido">
+            <h2>UMB</h2>
+            <p>La Universidad Mexiquense del Bicentenario ofrece educación superior accesible en distintas regiones del Estado de México. Su objetivo es ampliar las oportunidades educativas, brindando formación profesional en diversas áreas y contribuyendo al desarrollo regional.</p>
+            <div class="botones">
+                <a href="umb.html" class="boton">Ver más</a>
+                <a href="#" class="boton">Ubicación</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- UAM -->
+    <div class="tarjeta">
+        <img src="imagenes/uam.jpg">
+        <div class="contenido">
+            <h2>UAM</h2>
+            <p>La Universidad Autónoma Metropolitana es una de las instituciones más reconocidas en México por su alto nivel académico. Se caracteriza por su enfoque en la investigación, la innovación y el pensamiento crítico, formando profesionales altamente capacitados.</p>
+            <div class="botones">
+                <a href="uam.html" class="boton">Ver más</a>
+                <a href="#" class="boton">Ubicación</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- TECNOLOGICO DE TOLUCA -->
+    <div class="tarjeta">
+        <img src="imagenes/tecnologico.jpg">
+        <div class="contenido">
+            <h2>Tecnológico de Toluca</h2>
+            <p>El Tecnológico de Toluca es una institución pública que forma parte del sistema de institutos tecnológicos de México. Se enfoca en la formación de ingenieros y profesionistas en áreas tecnológicas, promoviendo la innovación, el desarrollo científico y la vinculación con la industria.</p>
+            <div class="botones">
+                <a href="tecnologico.html" class="boton">Ver más</a>
+                <a href="#" class="boton">Ubicación</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    Proyecto escolar - Asesoría educativa
+</footer>
+
+</body>
+</html>
